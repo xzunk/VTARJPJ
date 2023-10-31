@@ -12,12 +12,12 @@
   /* Handle */
   
   ::-webkit-scrollbar-thumb {
-	background: #c3c3c3;
+	background: #9d1d40;
   }
   /* Handle on hover */
   
   ::-webkit-scrollbar-thumb:hover {
-	background: #c3c3c3;
+	background: #9d1d40;
   }
 
 
@@ -55,6 +55,10 @@ body {
 }
 .centered-container {
   text-align: center;
+}
+
+iframe{
+  width:640px;
 }
 
 .cd-icon {
@@ -111,4 +115,11 @@ Component
 .back-to-top--is-visible {
   visibility: visible;
   opacity: 1;
+}
+
+
+@media (min-width: 200px) and (max-width: 768px) {
+  iframe{
+    width:100%;
+  }
 }
