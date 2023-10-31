@@ -1,0 +1,4 @@
+.container:not(.is-max-desktop) {
+    max-width: 650px;
+    align-content: end;
+  }
