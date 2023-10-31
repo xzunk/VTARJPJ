@@ -34,7 +34,7 @@ body {
 }
 
 .navbar {
-  border-bottom: #9d1d40 5px solid;
+  border-bottom: #9d1d40 2px solid;
   font-family: 'Poppins', sans-serif;
   border-radius: 10px;
 }
@@ -42,7 +42,7 @@ body {
   max-height: revert-layer;
 }
 .footer {
-  border-top: #9d1d40 5px solid;
+  border-top: #9d1d40 3px solid;
   background-color: #a11212;
   justify-content: center;
   align-items: center;
